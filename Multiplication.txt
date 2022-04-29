@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class mul{
+int a,b;
+void get_num(int x,int y)
+{
+a=x;
+b=y;
+}
+int  multiply_num(){
+int mul=a*b;
+return mul;
+
+}
+};
+
+int main(){
+int c,d;
+cout<<"Enter any two numbers "<<endl;
+cin>>c>>d;
+cout<<"The sum of "<<c <<"and "<<d <<"is"<<multiply_num(c,d);
+return 0;
+}
